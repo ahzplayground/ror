@@ -33,6 +33,7 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 16ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 1729)
 
 
+<<<<<<< HEAD
 Started GET "/" for ::1 at 2020-06-21 17:39:35 +0700
   [1m[35m (18.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
 Processing by Rails::WelcomeController#index as HTML
@@ -90,3 +91,75 @@ puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
 puma (4.3.5) lib/puma/server.rb:472:in `process_client'
 puma (4.3.5) lib/puma/server.rb:328:in `block in run'
 puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+=======
+Started GET "/home/index" for 125.160.112.223 at 2020-06-21 16:10:45 +0700
+Cannot render console from 125.160.112.223! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 223)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ruby/ror/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.43.0
+Time: 2940ms
+Built at: 06/21/2020 4:10:51 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 6469ms (Views: 6461.7ms | ActiveRecord: 0.0ms | Allocations: 18332)
+
+
+Started GET "/" for 125.160.112.223 at 2020-06-21 16:19:20 +0700
+Started GET "/" for 125.160.112.223 at 2020-06-21 16:19:20 +0700
+Cannot render console from 125.160.112.223! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Cannot render console from 125.160.112.223! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.6ms | Allocations: 1213)
+Processing by Rails::WelcomeController#index as HTML
+Completed 200 OK in 22ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 3336)
+
+
+  Rendering /usr/local/rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 8)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 941)
+
+
+Started GET "/" for 125.160.112.223 at 2020-06-21 16:27:43 +0700
+Cannot render console from 125.160.112.223! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.5ms | Allocations: 179)
+Completed 200 OK in 15ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 970)
+
+
+Started GET "/" for 125.160.112.223 at 2020-06-21 16:27:44 +0700
+Cannot render console from 125.160.112.223! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 7)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 491)
+
+
+>>>>>>> aaa2421a2935ed19819080ea646a7f9cc3c26715
+Started GET "/home/index" for ::1 at 2020-06-21 18:06:35 +0700
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 122ms (Views: 115.8ms | ActiveRecord: 0.0ms | Allocations: 21033)
+
+
